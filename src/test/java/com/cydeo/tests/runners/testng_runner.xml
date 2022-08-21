@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CrossBrowserTestWithTestNG " verbose="1">
+    <test name="CrossBrowserTestWithTestNG Smoke Test">
+         <classes>
+          <class name="com.cydeo.tests.pac3.Pac3Test1">
+              <methods>
+                  <exclude name="pac3Test1Method3"></exclude>
+              </methods>
+          </class>
+        </classes>
+    </test>
+
+</suite>
