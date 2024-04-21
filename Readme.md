@@ -11,6 +11,7 @@
 <img src="src/test/resources/Screen Shot 2022-08-21 at 5.41.16 PM.png">
 <br>
 - b. You can use maven command
+
 ````
 mvn clean test -DsuiteXmlFile=src/test/java/com/cydeo/tests/runners/smoke_test_runner.xml
-   ````
+````

@@ -19,9 +19,7 @@ public class MultiBrowserTest {
 
 
     @Parameters("browser")
-
     @BeforeClass
-
 
     // Passing Browser parameter from TestNG xml
     public void beforeTest(String browser) {
